@@ -1,4 +1,5 @@
-# reddit-reader
+reddit-reader
+===
 reddit-reader is a tool that helps managing subreddits on reddit.
 
 Reddit is a website composed of communities called subreddits. Each subreddit has posts that users can upvote and downvote. Examples: https://www.reddit.com/r/news/, https://www.reddit.com/r/todayilearned/
@@ -7,18 +8,17 @@ Reddit can be hard to navigate, especially for users who frequently browse a spe
 
 To clone this to local device:
 
-::
+    git clone https://github.com/JingzheSun/reddit-reader.git
 
-   git clone https://github.com/JingzheSun/reddit-reader.git
 
 Simply open the index.html under root folder to test.
 
 Click on the title ``Subreddits`` to launch manage page
 
 
-================
+
 Version History
-================
+===
 
 ``V1.0.0`` 2017/11/15 (latest)
 
