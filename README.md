@@ -13,6 +13,9 @@ To clone this to local device:
 
 Simply open the index.html under root folder to test.
 
+Click on the title ``Subreddits`` to launch manage page
+
+
 ================
 Version History
 ================
