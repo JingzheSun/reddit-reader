@@ -10,8 +10,7 @@ To clone this to local device:
 
     git clone https://github.com/JingzheSun/reddit-reader.git
 
-
-Simply open the index.html under root folder to test.
+There is no need to download or install anything else since ``webpack`` has already packed necessary components. Simply open the ``index.html`` under root folder to test.
 
 Click on the title ``Subreddits`` to launch manage page
 
@@ -32,3 +31,4 @@ Version History
   * Allows searching funciton while selecting subreddit
 
 * Using Reddit's API
+* Chrome friendly.
