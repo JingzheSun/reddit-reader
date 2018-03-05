@@ -28030,7 +28030,7 @@ var Home = function (_React$Component) {
 					var t = _step.value;
 
 					$.ajax({
-						url: 'https://www.reddit.com/r/' + t + '/search.json',
+						url: 'https://www.reddit.com/r/' + t + '.json',
 						data: { q: null, restrict_sr: 'true', sort: 'top' },
 						type: "GET",
 						dataType: "json"
@@ -28078,7 +28078,7 @@ var Home = function (_React$Component) {
 					return;
 				}
 				$.ajax({
-					url: 'https://www.reddit.com/r/' + newTopic + '/search.json',
+					url: 'https://www.reddit.com/r/' + newTopic + '.json',
 					data: { q: null, restrict_sr: 'true', sort: 'top' },
 					type: "GET",
 					dataType: "json"

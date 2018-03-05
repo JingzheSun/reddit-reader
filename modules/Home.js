@@ -20,7 +20,7 @@ export default class Home extends React.Component{
 		let {topics} = this.state;
 		for(var t of topics){
 			$.ajax({
-			    url: 'https://www.reddit.com/r/' + t + '/search.json',
+			    url: 'https://www.reddit.com/r/' + t + '.json',
 			    data: {q: null, restrict_sr: 'true', sort: 'top'},
 			    type: "GET",
 			    dataType : "json",
@@ -48,7 +48,7 @@ export default class Home extends React.Component{
 				return
 			}
 			$.ajax({
-			    url: 'https://www.reddit.com/r/' + newTopic + '/search.json',
+			    url: 'https://www.reddit.com/r/' + newTopic + '.json',
 			    data: {q: null, restrict_sr: 'true', sort: 'top'},
 			    type: "GET",
 			    dataType : "json",
